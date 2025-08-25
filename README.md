@@ -20,10 +20,7 @@ A simple **Next.js 15** project with authentication, product listing, product de
 
 ---
 
-## 🖼️ Screenshots
-👉 Add your screenshots here (Landing page, Products page, Dashboard).
 
----
 
 ## 🛠️ Tech Stack
 - **Frontend:** Next.js 15 (App Router), React, Tailwind CSS
