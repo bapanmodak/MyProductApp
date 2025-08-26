@@ -6,11 +6,18 @@ import { useRouter } from "next/navigation";
 export default function LoginPage() {
     const router = useRouter();
 
+    // const handleLogin = async () => {
+    //     const result = await signIn("google", {
+    //         redirect: false,
+    //         callbackUrl: "/products",
+    //     });
+
+    //     if (result?.ok) {
+    //         router.push("/products");
+    //     }
+    // };
     const handleLogin = async () => {
-        const result = await signIn("google", {
-            redirect: false,
-            callbackUrl: "/products", // লগইন সফল হলে products এ যাবে
-        });
+        const result = await signIn("google", { redirect: false });
 
         if (result?.ok) {
             router.push("/products");

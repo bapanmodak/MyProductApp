@@ -12,13 +12,13 @@ const highlightedProducts = [
         id: 2,
         name: "Wireless Headphone",
         price: 150,
-        imageUrl: "/headphones.jpg",
+        imageUrl: "/headphones.webp",
     },
     {
         id: 3,
         name: "Smart Watch",
         price: 300,
-        imageUrl: "/watch.jpg",
+        imageUrl: "/watch.webp",
     },
 ];
 

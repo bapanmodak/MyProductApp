@@ -9,7 +9,7 @@ const handler = NextAuth({
         }),
     ],
     pages: {
-        signIn: '/login', // কাস্টম লগইন পেজ
+        signIn: '/login',
     },
 });
 
